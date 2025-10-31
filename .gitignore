@@ -1,0 +1,128 @@
+# ===========================
+# Backend Spring Boot
+# ===========================
+
+# Maven
+backend-spring/target/
+backend-spring/.mvn/
+backend-spring/mvnw
+backend-spring/mvnw.cmd
+
+# Spring Boot
+backend-spring/*.jar
+backend-spring/*.war
+backend-spring/*.ear
+backend-spring/*.class
+
+# Logs
+backend-spring/logs/
+backend-spring/*.log
+backend-spring/*.log.*
+
+# Application properties with sensitive data
+backend-spring/src/main/resources/application-local.properties
+backend-spring/src/main/resources/application-prod.properties
+
+# ===========================
+# Frontend React
+# ===========================
+
+# Dependencies
+frontend-react/node_modules/
+frontend-react/.pnp
+frontend-react/.pnp.js
+
+# Testing
+frontend-react/coverage/
+
+# Production
+frontend-react/build/
+frontend-react/dist/
+
+# Misc
+frontend-react/.DS_Store
+frontend-react/.env.local
+frontend-react/.env.development.local
+frontend-react/.env.test.local
+frontend-react/.env.production.local
+
+# Logs
+frontend-react/npm-debug.log*
+frontend-react/yarn-debug.log*
+frontend-react/yarn-error.log*
+
+# ===========================
+# Docker
+# ===========================
+
+# Docker volumes
+postgres_data/
+
+# ===========================
+# IDEs
+# ===========================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# NetBeans
+nbproject/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# ===========================
+# OS
+# ===========================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+# ===========================
+# General
+# ===========================
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
